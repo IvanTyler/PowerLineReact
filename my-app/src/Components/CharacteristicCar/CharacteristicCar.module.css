@@ -1,0 +1,122 @@
+.main {
+    position: relative;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.containerCars {
+    padding-top: 30px;
+}
+
+.videoKiaSportage {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerCars .formEditUser {
+    position: relative;
+    width: 310px;
+    padding: 24px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    background-color: #1991eb;
+}
+
+.containerCars .formEditUserTitle {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.formEditUserCloseForm {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.formEditUserTitle {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.addingUserItem {
+    position: relative;
+    margin-top: 20px;
+}
+
+.editUserInput {
+    min-width: 100%;
+    height: 36px;
+    margin-top: 4px;
+    padding-left: 16px;
+    outline: none;
+    font-size: 12px;
+    line-height: 15px;
+    border: solid 1px #ececec;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.necessarily {
+
+}
+
+.editUserInput::placeholder,
+.editUserInput::placeholder {
+  color: #b4b4b4;
+}
+
+.buttonEditUserData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 36px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 4px;
+    background-color: #fd6e74;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hidden {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    opacity: 0;
+    z-index: -5;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
